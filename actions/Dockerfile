@@ -1,4 +1,4 @@
 FROM ubuntu
 
-ADD entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ADD entrypoint.bash /entrypoint.bash
+ENTRYPOINT ["/entrypoint.bash"]
