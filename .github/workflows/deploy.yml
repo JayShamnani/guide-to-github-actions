@@ -13,3 +13,4 @@ jobs:
       uses: './actions/'
     env:
       deployment_env: "This comes from deploy.yml file"
+      github_secret: ${{ secrets.SECRET_NAME }}
