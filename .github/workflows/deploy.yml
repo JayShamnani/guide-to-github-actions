@@ -1,0 +1,13 @@
+name: Print Hello World
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Printing Hello World
+      uses: './actions/'
